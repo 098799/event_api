@@ -1,0 +1,3 @@
+[run]
+include = eventplanner/*
+omit = *tests*, eventplanner/apps.py
