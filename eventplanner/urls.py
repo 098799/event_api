@@ -5,6 +5,7 @@ from rest_framework import routers
 
 
 router = routers.DefaultRouter()
+router.register(r"events", views.EventViewSet)
 router.register(r"sessions", views.SessionViewSet)
 router.register(r"users", views.UserViewSet)
 
