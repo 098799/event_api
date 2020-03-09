@@ -53,6 +53,5 @@ AUTHORS
 build/
 dist/
 
-requirements.txt
 .pytest_cache/
 documentation/api/
